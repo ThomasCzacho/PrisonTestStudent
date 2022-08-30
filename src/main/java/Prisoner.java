@@ -11,5 +11,9 @@ public class Prisoner {
         this.s=s;
     }
 
-
+    public void display() {
+        System.out.println(n);
+        System.out.println(h);
+        System.out.println(s);
+    }
 }
